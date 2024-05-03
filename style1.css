@@ -1,0 +1,157 @@
+/* Estilos para o Cabeçalho */
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    align-items: center;
+
+}
+
+.search-bar input {
+    width: 70%;
+    padding: 10px;
+    
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+article {
+    padding: 20px;
+}
+
+.article-content {
+    margin-bottom: 20px;
+}
+
+.feedback button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.access-counter {
+    font-style: italic;
+}
+
+/* Estilos para o Rodapé */
+footer {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.contact-info,
+.legal-info,
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    width: 70%;
+    padding: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+body, html{
+	overflow-x: hidden;
+}
+.menu{
+	background-color: #131313;
+	position: fixed;
+	overflow: hidden;
+	height: 50vh;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 20px;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	-webkit-transform: translateZ(0) scale(1,1);
+	transform: translateZ(0) scale(1,1);
+}
+.menu > ul{
+	margin: 5px 0;
+}
+.menu li{
+	position: relative;
+	display: block;
+	width: 250px;
+}
+.menu li > a{
+	position: relative;
+	width: 255px;
+	color: #8a8a8a;
+	display: table;
+	font-size: 16px;
+	text-decoration: none;
+	-webkit-transform: translateZ(0) scale(1,1);
+	transform: translateZ(0) scale(1,1);
+	-webkit-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+}
+.menu .span-menu{
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	width: 180px;
+}
+.lista{
+	background-color: #131313;
+	text-transform: capitalize;
+}
+.lista-logo, .li-empresa, .li-contato{
+	background-color: #010101;
+	text-transform: capitalize;
+}
+.menu li:hover a, nav.menu li.active > a{
+	color: #fff;
+	background-color: #b60404;
+}
+nav{
+	-webkit-user-select: none;
+	user-select: none;
+	box-shadow: 0 0 10px #282828;
+}
+.fa{
+	position: relative;
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	top: 12px;
+}
+.menu:hover, nav.menu.expanded{
+	width: 250px;
+	overflow: hidden;
+}
+
+
